@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de CPF</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card">
+
+            <h1>
+                Descubra se um CPF é verdadeiro
+            </h1>
+
+            <p>
+                Digite um CPF abaixo:
+            </p>
+
+            <input type="text" id="cpf" placeholder="000.000.000-00" oninput="validarCPF(this.value)">
+
+            <div id="resultado">
+                Aguardando CPF...
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
